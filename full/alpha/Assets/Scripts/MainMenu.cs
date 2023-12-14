@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+    public string URL = "https://github.com/jn0w/Project2_create_with_code";
+
     public void Play()
     {
         SceneManager.LoadScene("Difficulty");
@@ -19,6 +22,11 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+        public void loadUrl()
+        {
+        Application.OpenURL(URL);
+        }
 
     public void SetDifficulty(string difficulty)
     {
