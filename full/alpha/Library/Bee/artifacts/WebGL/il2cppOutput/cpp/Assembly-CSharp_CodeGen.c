@@ -41,6 +41,7 @@ extern void Goalie__ctor_m7BCD2C08DD59E71E7218AC0691CC13F0E532D67D (void);
 extern void MainMenu_Play_m83A060624413533808E63A4420ECEFA5A9FB07E6 (void);
 extern void MainMenu_Instructions_m828052A756CA1F5BA15C5C5E6A5010FE8417D4DA (void);
 extern void MainMenu_Return_mA9248964CA4AA1B1A10D60B9BA9F151D99AD4838 (void);
+extern void MainMenu_loadUrl_mD4E0DBDF9422A2A8A4A992A9FFB4DB7D7B641B61 (void);
 extern void MainMenu_SetDifficulty_mC9B7E9C5C37D3DC4B6957CE5052966A9BA99F009 (void);
 extern void MainMenu_Easy_m535E3BDFBA92BF1A72919F07300CF3BEDB47D9F0 (void);
 extern void MainMenu_Medium_m7D61CE464CA1709BB253945CAD78282135BFA2F5 (void);
@@ -55,7 +56,7 @@ extern void PlayerController_ResetPlayerPosition_mFF37C94BD042F36000650CE40C0C77
 extern void PlayerController__ctor_mDDAB7C7D82E1A5B3E6C197B1AB9D653DFE554F33 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
 extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
-static Il2CppMethodPointer s_methodPointers[43] = 
+static Il2CppMethodPointer s_methodPointers[44] = 
 {
 	BallManager_Awake_mC490749834A60F79507FC50BA7062B23BA1D3A31,
 	BallManager_SetBallObject_mD2BB8894790CAA4F44F8B4D4843FDE73BD311683,
@@ -86,6 +87,7 @@ static Il2CppMethodPointer s_methodPointers[43] =
 	MainMenu_Play_m83A060624413533808E63A4420ECEFA5A9FB07E6,
 	MainMenu_Instructions_m828052A756CA1F5BA15C5C5E6A5010FE8417D4DA,
 	MainMenu_Return_mA9248964CA4AA1B1A10D60B9BA9F151D99AD4838,
+	MainMenu_loadUrl_mD4E0DBDF9422A2A8A4A992A9FFB4DB7D7B641B61,
 	MainMenu_SetDifficulty_mC9B7E9C5C37D3DC4B6957CE5052966A9BA99F009,
 	MainMenu_Easy_m535E3BDFBA92BF1A72919F07300CF3BEDB47D9F0,
 	MainMenu_Medium_m7D61CE464CA1709BB253945CAD78282135BFA2F5,
@@ -101,7 +103,7 @@ static Il2CppMethodPointer s_methodPointers[43] =
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
 	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
 };
-static const int32_t s_InvokerIndices[43] = 
+static const int32_t s_InvokerIndices[44] = 
 {
 	4433,
 	3569,
@@ -114,6 +116,7 @@ static const int32_t s_InvokerIndices[43] =
 	4433,
 	4433,
 	3569,
+	4433,
 	4433,
 	4433,
 	4433,
@@ -151,7 +154,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	43,
+	44,
 	s_methodPointers,
 	0,
 	NULL,

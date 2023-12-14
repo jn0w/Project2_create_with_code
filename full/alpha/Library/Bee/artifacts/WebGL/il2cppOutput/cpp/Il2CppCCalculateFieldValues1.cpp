@@ -4874,6 +4874,10 @@ struct Goalie_tB69DAFCF44CC159E7354B373641046E1C24A6AAB  : public MonoBehaviour_
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___startPos;
 	bool ___movingRight;
 };
+struct MainMenu_t5A8A8E4906FD2B24D16567A6BFFDAA6B91DD12DF  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___URL;
+};
 struct PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	Rigidbody_t268697F5A994213ED97393309870968BC1C7393C* ___rb;
@@ -7954,6 +7958,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3949[16] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3950[4] = 
 {
 	static_cast<int32_t>(offsetof(Goalie_tB69DAFCF44CC159E7354B373641046E1C24A6AAB, ___moveDistance)),static_cast<int32_t>(offsetof(Goalie_tB69DAFCF44CC159E7354B373641046E1C24A6AAB, ___defaultMoveSpeed)),static_cast<int32_t>(offsetof(Goalie_tB69DAFCF44CC159E7354B373641046E1C24A6AAB, ___startPos)),static_cast<int32_t>(offsetof(Goalie_tB69DAFCF44CC159E7354B373641046E1C24A6AAB, ___movingRight)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3951[1] = 
+{
+	static_cast<int32_t>(offsetof(MainMenu_t5A8A8E4906FD2B24D16567A6BFFDAA6B91DD12DF, ___URL)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3952[8] = 
 {
 	static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___rb)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___jumpParticles)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___initialPlayerPosition)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___speed)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___jumpForce)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___isGrounded)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___horizontalInput)),static_cast<int32_t>(offsetof(PlayerController_t7E8D7042FA2D0DFEC54A1FCDF395161D88DAAE95, ___forwardInput)),};
