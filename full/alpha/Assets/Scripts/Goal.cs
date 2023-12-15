@@ -28,6 +28,8 @@ public class Goal : MonoBehaviour
     public float timeValue;
     private bool ballScored = false;
 
+    public AudioSource goalAudioSource; // Reference to the AudioSource for the goal sound effect
+
     private void Start()
     {
         goalkeeper = FindObjectOfType<Goalie>();
@@ -49,6 +51,13 @@ public class Goal : MonoBehaviour
         if (other.CompareTag("Ball") && !ballScored)
         {
             ballScored = true; // Set the flag to true when the ball is scored
+
+
+            if (goalAudioSource != null && !goalAudioSource.isPlaying)
+            {
+                goalAudioSource.Play();
+            }
+
 
             IncreaseSpeed();
             IncreaseScore();

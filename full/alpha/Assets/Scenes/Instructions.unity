@@ -426,6 +426,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13cf4af45b3ff374f819b59f76ae6e86, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  URL: https://github.com/jn0w/Project2_create_with_code
 --- !u!4 &1285153124
 Transform:
   m_ObjectHideFlags: 0
@@ -546,7 +547,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d52ac594d01cc5c4f87a529ecda4bed2, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.6
+  m_Volume: 0.171
   m_Pitch: 1
   Loop: 0
   Mute: 0

@@ -305,6 +305,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 82
       Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
     - Class: 104
@@ -550,7 +552,7 @@ ScriptsOnlyBuild:
     className: UnityOnInputFieldEndEditMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 4838adecb159c9bfafa53d0b1c9b7e90
+      Hash: 6ab81a8315ee23ff5c582b2c365e1d1f
     assemblyName: Assembly-CSharp
     namespaceName: 
     className: Goal

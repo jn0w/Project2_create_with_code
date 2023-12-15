@@ -48,6 +48,13 @@ public class PlayerController : MonoBehaviour
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
 
         jumpParticles.Play();
+        //stop jump particles after 2 seconds
+         Invoke("StopJumpParticles", 2.0f);
+    }
+
+    void StopJumpParticles()
+    {
+    jumpParticles.Stop();
     }
 
     public void OnCollisionEnter(Collision collision)
