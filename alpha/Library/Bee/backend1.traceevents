@@ -1,0 +1,57 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1702748309018766, "dur":12642, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702748309031419, "dur":940, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702748309032456, "dur":451, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702748309035007, "dur":69, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"C_WebGL_wasm Library/Bee/artifacts/WebGL/il2cpp/release_WebGL_wasm/347qbgrr77ve.o" }}
+,{ "pid":12345, "tid":0, "ts":1702748309032937, "dur":11012, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702748309043956, "dur":3768, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702748309047725, "dur":53, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702748309047789, "dur":113705, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702748309161640, "dur":18857, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1702748309033406, "dur":10557, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1702748309043967, "dur":3752, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702748309033437, "dur":10543, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1702748309043984, "dur":113477, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityWebRequestTextureModule_Dynamic.a" }}
+,{ "pid":12345, "tid":2, "ts":1702748309157716, "dur":737, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityWebRequestAudioModule_Dynamic.a" }}
+,{ "pid":12345, "tid":2, "ts":1702748309158660, "dur":531, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_UnityTestProtocolModule_Dynamic.a" }}
+,{ "pid":12345, "tid":2, "ts":1702748309043984, "dur":117433, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702748309033430, "dur":10540, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1702748309045372, "dur":112088, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_XRModule_Dynamic.a" }}
+,{ "pid":12345, "tid":3, "ts":1702748309157821, "dur":634, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_VRModule_Dynamic.a" }}
+,{ "pid":12345, "tid":3, "ts":1702748309158641, "dur":527, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_VFXModule_Dynamic.a" }}
+,{ "pid":12345, "tid":3, "ts":1702748309043977, "dur":115644, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702748309033467, "dur":10520, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1702748309043990, "dur":113472, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_SubstanceModule_Dynamic.a" }}
+,{ "pid":12345, "tid":4, "ts":1702748309157707, "dur":745, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_SpriteShapeModule_Dynamic.a" }}
+,{ "pid":12345, "tid":4, "ts":1702748309158648, "dur":518, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_SharedInternalsModule_Dynamic.a" }}
+,{ "pid":12345, "tid":4, "ts":1702748309043990, "dur":117359, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702748309033496, "dur":10498, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1702748309043998, "dur":113492, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_GridModule_Dynamic.a" }}
+,{ "pid":12345, "tid":5, "ts":1702748309157704, "dur":743, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_GameCenterModule_Dynamic.a" }}
+,{ "pid":12345, "tid":5, "ts":1702748309158635, "dur":514, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\modules\\WebGLSupport_DirectorModule_Dynamic.a" }}
+,{ "pid":12345, "tid":5, "ts":1702748309043998, "dur":117424, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702748309033521, "dur":10482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1702748309044504, "dur":52669, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\_patch_library_exceptions.js" }}
+,{ "pid":12345, "tid":6, "ts":1702748309044006, "dur":55277, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702748309033565, "dur":10445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1702748309044013, "dur":53151, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\lib\\case_plat_4600_guard_js_exceptions.js" }}
+,{ "pid":12345, "tid":7, "ts":1702748309097726, "dur":7565, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\Variations\\nondevelopment\\baselib.a" }}
+,{ "pid":12345, "tid":7, "ts":1702748309044013, "dur":62669, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702748309033601, "dur":10416, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1702748309046201, "dur":33040, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\il2cpp\\external\\zlib\\adler32.c" }}
+,{ "pid":12345, "tid":8, "ts":1702748309044020, "dur":35222, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702748309033624, "dur":10399, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1702748309044028, "dur":63723, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\BuildTools\\Emscripten\\emscripten\\emar.bat" }}
+,{ "pid":12345, "tid":9, "ts":1702748309107878, "dur":7253, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\il2cpp\\external\\bdwgc\\extra\\gc.c" }}
+,{ "pid":12345, "tid":9, "ts":1702748309044027, "dur":72859, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702748309033651, "dur":10381, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1702748309044035, "dur":22535, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\il2cpp\\build\\deploy\\Unity.IL2CPP.Building.dll" }}
+,{ "pid":12345, "tid":10, "ts":1702748309044035, "dur":25639, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702748309033680, "dur":10377, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1702748309044060, "dur":22520, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\il2cpp\\build\\deploy\\ucrtbase.dll" }}
+,{ "pid":12345, "tid":11, "ts":1702748309044060, "dur":25479, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702748309033725, "dur":10379, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1702748309044106, "dur":22464, "ph":"X", "name": "File",  "args": { "detail":"G:\\unity\\2022.3.9f1\\Editor\\Data\\il2cpp\\build\\deploy\\System.Threading.Tasks.Extensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1702748309044106, "dur":25508, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1702748309184812, "dur":492, "ph":"X", "name": "ProfilerWriteOutput" }
+,
