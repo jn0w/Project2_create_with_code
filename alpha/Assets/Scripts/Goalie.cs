@@ -5,24 +5,32 @@ using UnityEngine.SceneManagement;
 
 public class Goalie : MonoBehaviour
 {
-    public float moveDistance = 5f;
-    public float defaultMoveSpeed = 2f;
+    // Public variables accessible and modifiable in Unity Inspector
+    public float moveDistance = 5f; // Distance the goalie can move
+    public float defaultMoveSpeed = 2f; // Default movement speed of the goalie
     
-    private Vector3 startPos;
-    private bool movingRight = true;
-
+    // Private variables accessible only within this script
+    private Vector3 startPos; // Initial position of the goalie
+    private bool movingRight = true; // Direction flag for goalie movement
     
 
+    // This method is called when the script instance is being loaded
     public void Awake()
     {
+        // Display initial goalie speed in the console when the game starts
         Debug.Log("Awake - Initial Goalie Speed: " + defaultMoveSpeed);
+
+        // Set difficulty settings for the goalie movement speed
         SetDifficultySettings();
     }
 
-      private void SetDifficultySettings()
+    // This method sets the difficulty settings based on the player's choice
+    private void SetDifficultySettings()
     {
+        // Get the selected difficulty level from player preferences
         string selectedDifficulty = PlayerPrefs.GetString("SelectedDifficulty");
 
+        // Set goalie's movement speed based on selected difficulty
         switch (selectedDifficulty)
         {
             case "Easy":
@@ -44,30 +52,27 @@ public class Goalie : MonoBehaviour
         }
     }
 
-
+    // This method is called before the first frame update
     public void Start()
     {
+        // Store the initial position of the goalie when the game starts
         startPos = transform.position;
     }
 
+    // This method is called once per frame
     public void Update()
     {
+        // Calculate the current movement speed based on the direction
         float currentMoveSpeed = movingRight ? defaultMoveSpeed : -defaultMoveSpeed;
 
+        // Move the goalie horizontally based on the calculated speed and frame rate
         transform.Translate(Vector3.right * currentMoveSpeed * Time.deltaTime);
 
-        // Check if the object has moved the desired distance
+        // Check if the goalie has moved the desired distance
         if (Mathf.Abs(transform.position.x - startPos.x) >= moveDistance)
         {
-            // Change direction
+            // Change the direction of movement when the desired distance is reached
             movingRight = !movingRight;
         }
     }
-
-
 }
-
-
-
-
-
