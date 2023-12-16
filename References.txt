@@ -18,3 +18,15 @@ https://www.youtube.com/watch?v=jrB6DLpIDaA
 
 main menu background:
 https://pngtree.com/free-backgrounds-photos/football
+
+game music:
+https://www.youtube.com/watch?v=cdtr0IdG3HQ
+
+goal sound effect:
+https://www.youtube.com/watch?v=LMPbHxgjJM8
+
+ball texture:
+https://assetstore.unity.com/packages/3d/low-polygon-soccer-ball-84382
+
+ground grass texture:
+https://assetstore.unity.com/packages/2d/textures-materials/floors/hand-painted-seamless-grass-texture-vol-3-159522
